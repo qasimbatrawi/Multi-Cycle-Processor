@@ -1,0 +1,11 @@
+[Version]
+Version=15.0
+[Designs]
+mulit cycle processor=.\Mulit Cycle Processor\Mulit Cycle Processor.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+[Expand]
+mulit cycle processor=1

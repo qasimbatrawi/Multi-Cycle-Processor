@@ -1,0 +1,47 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Mulit_Cycle_Processor
+[Library]
+Mulit_Cycle_Processor=.\Mulit_Cycle_Processor\Mulit_Cycle_Processor.lib
+[$LibMap$]
+Mulit_Cycle_Processor=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+AccessACCB=0
+AccessACCR=0
+AccessReadTopLevel=0
+AccessRead=1
+AccessReadWrite=0
+AccessReadWriteSLP=0
+SimulationAccessReadPaths=
+SimulationAccessReadModules=
+SimulationAccessReadWritePaths=
+SimulationAccessReadWriteModules=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=
+fileopenfolder=D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src
+[Files]
+/Proccessor.v=-1
+/TB.v=-1
+/..\..\..\..\..\..\y2s3\Advance\Project\Project\MulitCycleProcessor\src\TB_WaveForm.asdb=-1
+/..\..\..\..\..\..\y2s3\Advance\Project\Project\MulitCycleProcessor\src\TB_WaveForm.awc=-1
+[Files.Data]
+.\src\Proccessor.v=Verilog Source Code
+.\src\TB.v=Verilog Source Code
+.\..\..\..\..\..\y2s3\Advance\Project\Project\MulitCycleProcessor\src\TB_WaveForm.asdb=Accelerated Waveform File
+.\..\..\..\..\..\y2s3\Advance\Project\Project\MulitCycleProcessor\src\TB_WaveForm.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+[ORDER]
+Synchronize=1
