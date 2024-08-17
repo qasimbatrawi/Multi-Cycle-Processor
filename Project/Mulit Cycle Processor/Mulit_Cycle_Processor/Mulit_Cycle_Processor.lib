@@ -1,4 +1,4 @@
-timestamp=1723898298278
+timestamp=1723913048117
 
 [~A]
 D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/ALU.v=0*11514*12086
@@ -6,146 +6,149 @@ D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/ALU.v_DecodeInst.
 D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/CU test.v=0*7316*8549
 D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/CU.v=0*4802*5437
 D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/ControlUnit.v=0*2526*3186
-D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/DataPath and ControlUnit.v=0*17712*19362
-D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/DataPath.v=0*20427*22189
+D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/DataPath and ControlUnit.v=0*12651*14301
+D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/DataPath.v=0*14919*16681
 D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/DecodeInst.v=0*9134*9617
-D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/FATB.v=0*60295*60804
+D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/FATB.v=0*18288*18797
 D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/Proccesor.v=0*10205*10927
-D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/Proccessor.v=0*141484*143312
-D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/Proccessor.v_TB.v=0*70551*72432
+D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/Proccessor.v=0*57329*59173
+D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/Proccessor.v_TB.v=0*33879*35856
 D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/RegisterFile.v=0*6001*6726
-D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/TB.v=0*145799*146306
-D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/fulladder.v=0*57363*57797
+D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/TB.v=0*29240*29747
+D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/fulladder.v=0*17267*17701
 D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/test.v=0*3775*4236
 LastVerilogToplevel=TB
-ModifyID=118
+ModifyID=138
 Version=74
 
 [~MFT]
-0=6|0Mulit_Cycle_Processor.mgf|146306|92260
-1=4|1Mulit_Cycle_Processor.mgf|160275|133507
-2=0|2Mulit_Cycle_Processor.mgf|2554|0
-3=8|3Mulit_Cycle_Processor.mgf|231875|195487
+0=6|0Mulit_Cycle_Processor.mgf|59173|25305
+1=4|1Mulit_Cycle_Processor.mgf|64221|39364
+2=0|2Mulit_Cycle_Processor.mgf|8459|2224
+3=8|3Mulit_Cycle_Processor.mgf|101140|67622
 
 [$root]
-A/$root=22|||1*159837
-BinW64/$root=3*231213
-SLP=3*231328
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216222e56a4d727ffc1e4a8758c847d001b
+A/$root=22|||1*63783
+BinW64/$root=3*97947
+SLP=3*98062
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c92160f3839451feb3f9b64fcb200f7b6d190
 
 [ALU]
-A/ALU=22|../src/ALU.v|1|1*406
+A/ALU=22|../src/ALU.v|1|1*438
 BinW64/ALU=3*183
 R=../src/ALU.v|1
 SLP=3*908
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b3eb40c25b2a3c0379c7730185183eec86cb287b3f6e5c198f35074aa28e431c
 
 [ControlUnit]
-A/ControlUnit=22|../src/CU test.v|3|1*1721
+A/ControlUnit=22|../src/CU test.v|3|1*1753
 BinW64/ControlUnit=3*1282
 R=../src/CU test.v|3
 SLP=3*3277
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0dc9d995053bfcd284d27d4b39f3dbe96e13ddcddf1236a683baa337e5d9976b152b0db6b6edeed523e74740a1aafd20
 
 [DataPath]
-A/DataPath=22|../src/DataPath.v|3|1*19734
-BinW64/DataPath=3*22077
+A/DataPath=22|../src/DataPath.v|3|1*4379
+BinW64/DataPath=3*4720
+NSymbols/datapath=NSymbols/DataPath 40|0|2*6007
 R=../src/DataPath.v|3
-SLP=3*24641
+SLP=3*7284
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|87c3ba206c41e36441893af3ba1836cdc6bbd1a65b0a1afe728fa8b90cb39ee16091af296af8f19d08847a8d9cbf4c49
 
 [DataPath_ControlUnit]
-A/DataPath_ControlUnit=22|../src/DataPath and ControlUnit.v|3|1*16225
-BinW64/DataPath_ControlUnit=3*17091
+A/DataPath_ControlUnit=22|../src/DataPath and ControlUnit.v|3|1*7300
+BinW64/DataPath_ControlUnit=3*10160
 NSymbols/datapath_controlunit=NSymbols/DataPath_ControlUnit 40|0|2*0
 R=../src/DataPath and ControlUnit.v|3
-SLP=3*19518
+SLP=3*12587
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|430e89480d1cd90ad3bb2b543e829978f57d680460a6487442c15207db1d6fb762233695fbb32701e857f0e58924a239
 
 [DecodeInstruction]
-A/DecodeInstruction=22|../src/DecodeInst.v|1|1*7434
-BinW64/DecodeInstruction=3*9523
+A/DecodeInstruction=22|../src/DecodeInst.v|1|1*10387
+BinW64/DecodeInstruction=3*14963
 R=../src/DecodeInst.v|1
-SLP=3*9934
+SLP=3*15374
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c4abfabddceb6d1a6a4d1474d4ad71fdd9a79022788beb2f913f55cdc8e9bd9356b11ee0237bc5d38a4e64329129b957
 
 [FA]
-A/FA=22|../src/fulladder.v|1|1*58356
-BinW64/FA=3*66272
+A/FA=22|../src/fulladder.v|1|1*11590
+BinW64/FA=3*15583
 R=../src/fulladder.v|1
-SLP=3*66690
+SLP=3*16001
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f1750500365c95ccf822ac76f373146bee8f7711a1f62fdbc6a0f335633f226f
 
 [Proccessor]
-A/Proccessor=22|../src/Proccessor.v|3|1*34929
-BinW64/Proccessor=3*39702
+A/Proccessor=22|../src/Proccessor.v|3|1*12567
+BinW64/Proccessor=3*16167
+NSymbols/proccessor=NSymbols/Proccessor 40|0|2*7230
 R=../src/Proccessor.v|3
-SLP=3*42395
+SLP=3*18860
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c78133630fa8aa7033355933b976bff51090b922f459875aff2bc164ccb765c2e2eadb4e2e6be09ea5efa8e15fdc5ec5
 
 [Processor]
-A/Processor=22|../src/Proccessor.v|1|1*155336
-BinW64/Processor=3*224101
+A/Processor=22|../src/Proccessor.v|1|1*64221
+BinW64/Processor=3*98130
+NSymbols/processor=NSymbols/Processor 40|0|2*8459
 R=../src/Proccessor.v|1
-SLP=3*227032
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|bc4a05e4f1986e87dc10e9c03cab55bc030c5f4de3ffa3c97f58c5528f1d7913309aa2d2371cb9c8e30d0eb6662c187f
+SLP=3*101140
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|bc4a05e4f1986e87dc10e9c03cab55bc030c5f4de3ffa3c97f58c5528f1d7913767f00db79612cdb4b44a8936635cf55
 
 [RegFile]
-A/RegFile=22|../src/RegisterFile.v|1|1*8637
-BinW64/RegFile=3*10143
+A/RegFile=22|../src/RegisterFile.v|1|1*18721
+BinW64/RegFile=3*28142
 R=../src/RegisterFile.v|1
-SLP=3*11115
+SLP=3*29114
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d0e0049a7c15a9eb84595120644d7cdc26527262ddaa47cb266f3a3c4d9b973a8de28285e73fc288f14cc186dc9afe3c
 
 [RegisterFile]
-A/RegisterFile=22|../src/RegisterFile.v|1|1*10519
-BinW64/RegisterFile=3*11441
+A/RegisterFile=22|../src/RegisterFile.v|1|1*20603
+BinW64/RegisterFile=3*29440
 R=../src/RegisterFile.v|1
-SLP=3*12243
+SLP=3*30242
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|22f74543ade67d85359ca455f1aa161036d96cbaa54bbfe1fa4f47ec71d764292a58059ab828d3f41d7f90d8afc945d1
 
 [TB]
-A/TB=22|../src/TB.v|1|1*160275
-BinW64/TB=3*231396
+A/TB=22|../src/TB.v|1|1*37026
+BinW64/TB=3*51114
 R=../src/TB.v|1
-SLP=3*231875
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|a25cf6b16b523c1effa4f2b0e236df13efa7eb6b7fb8b3b009357226d910f12c
+SLP=3*51765
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|a25cf6b16b523c1effa4f2b0e236df133d293ec819a8abc476045575466c9092
 
 [TTB]
-A/TTB=22|../src/FATB.v|1|1*61210
-BinW64/TTB=3*68364
+A/TTB=22|../src/FATB.v|1|1*23507
+BinW64/TTB=3*31362
 R=../src/FATB.v|1
-SLP=3*69228
+SLP=3*32226
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|361d6a6472336755fa06222f2e45d6add6397af6fe26a777f199a9a70f6a460c
 
 [proccessor]
-A/proccessor=22|../src/Proccesor.v|1|1*12219
-BinW64/proccessor=3*12513
+A/proccessor=22|../src/Proccesor.v|1|1*24506
+BinW64/proccessor=3*32504
 NSymbols/proccessor=40|0|2*2554
 R=../src/Proccesor.v|1
-SLP=3*13145
+SLP=3*33136
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|abe300dd50ccae8e468b6f34a1cf06adac8b2d05c03496b11b21a1c1f2c598013ca3a4eefd603f7082093d7325eeea01
 
 [test]
-A/test=22|../src/test.v|1|1*13918
-BinW64/test=3*13883
+A/test=22|../src/test.v|1|1*26205
+BinW64/test=3*33874
 R=../src/test.v|1
-SLP=3*16153
+SLP=3*36144
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|e1f76c805e2c0a9a3d36a8be8882f206b0f6da30b0c077fa0aa8124afde1d00d
 
 [~U]
-$root=12|0*145377|
-ALU=12|0*15149||0x10
-ControlUnit=12|0*15387||0x10
-DataPath=12|0*20226||0x10
-DataPath_ControlUnit=12|0*17444||0x3
-DecodeInstruction=12|0*15949||0x10
-FA=12|0*57167||0x10
-Proccessor=12|0*34404|
-Processor=12|0*141255|
-RegFile=12|0*16204||0x10
-RegisterFile=12|0*16470||0x10
-TB=12|0*145639||0x10
-TTB=12|0*60140||0x10
-proccessor=12|0*16745||0x13
-test=12|0*16976||0x10
+$root=12|0*56833|
+ALU=12|0*25602||0x10
+ControlUnit=12|0*25840||0x10
+DataPath=12|0*26134||0x13
+DataPath_ControlUnit=12|0*26335||0x3
+DecodeInstruction=12|0*26603||0x10
+FA=12|0*26858||0x10
+Proccessor=12|0*27054||0x3
+Processor=12|0*57095||0x3
+RegFile=12|0*27493||0x10
+RegisterFile=12|0*27759||0x10
+TB=12|0*33719||0x10
+TTB=12|0*28194||0x10
+proccessor=12|0*28349||0x13
+test=12|0*28580||0x10

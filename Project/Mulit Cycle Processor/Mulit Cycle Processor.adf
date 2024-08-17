@@ -34,11 +34,13 @@ fileopenfolder=D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src
 /TB.v=-1
 /..\..\..\..\..\..\y2s3\Advance\Project\Project\MulitCycleProcessor\src\TB_WaveForm.asdb=-1
 /..\..\..\..\..\..\y2s3\Advance\Project\Project\MulitCycleProcessor\src\TB_WaveForm.awc=-1
+/BD.bde=-1
 [Files.Data]
 .\src\Proccessor.v=Verilog Source Code
 .\src\TB.v=Verilog Source Code
 .\..\..\..\..\..\y2s3\Advance\Project\Project\MulitCycleProcessor\src\TB_WaveForm.asdb=Accelerated Waveform File
 .\..\..\..\..\..\y2s3\Advance\Project\Project\MulitCycleProcessor\src\TB_WaveForm.awc=Accelerated Waveform Configuration
+.\src\BD.bde=Block Diagram
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel

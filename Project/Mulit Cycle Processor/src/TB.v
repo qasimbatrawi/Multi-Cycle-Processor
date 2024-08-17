@@ -2,16 +2,16 @@ module TB;
 	
 	reg clk ;
 	wire [15:0] Out ;
-	wire [15:0] fetchedInstruction ;
+	wire [15:0] IR , Stored , Loaded ;
 	
-	Processor P1(clk , fetchedInstruction , Out) ;
+	Processor P1(clk , IR , Loaded , Stored , Out) ;
 	
 	initial begin 
 		
 		clk = 0 ;
 		
-        repeat(32) begin
-            #10 clk = ~clk;  // Delay specified with timescale in mind
+        repeat(64) begin
+            #10ns clk = ~clk;
         end
 		
 	end   	 

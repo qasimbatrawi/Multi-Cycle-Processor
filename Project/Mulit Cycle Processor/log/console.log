@@ -1,4 +1,534 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# Waveform file 'D:/uni/y2s3/Advance/Project/Project/MulitCycleProcessor/src/TB_WaveForm.awc' connected to 'D:/uni/y2s3/Advance/Project/Project/MulitCycleProcessor/src/TB_WaveForm.asdb'.
 open -txt {D:\uni\y2 s3\Advance\Project\Project\Project.wsw}
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: You do not have valid license to open Block Diagram files. Contact Aldec for ordering information - sales@aldec.com.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/TB.v
+# Unit top modules: TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:13 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:13 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Warning: Could not write to "D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/bde.set" file.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v $dsn/src/TB.v
+# Unit top modules: TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:25 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v
+# Error: VCP2000 Proccessor.v : (81, 27): Syntax error. Unexpected token: '.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 1[s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:27 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:27 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:27 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:33 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:38 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:40 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:41 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:41 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:43 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Mulit_Cycle_Processor $dsn/src/Proccessor.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (88.89%) signals in SLP and 3 (11.11%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4679 kB (elbread=427 elab2=4118 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y2 s3\Advance\Project\Project\Mulit Cycle Processor\src\wave.asdb
+#  7:44 PM, Saturday, August 17, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/uni/y2 s3/Advance/Project/Project/Mulit Cycle Processor/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
