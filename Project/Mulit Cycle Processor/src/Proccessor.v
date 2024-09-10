@@ -68,6 +68,7 @@ module Processor(clk , IR , Loaded , Stored , Out) ;
 	end
 	
 	// the data memory with its initial value
+	// the memory must be [2^16-1:0], we have used small memory just for tests
 	reg [15:0] DataMemory [15:0] ;
 	initial begin
 		pc = 0 ;
