@@ -2,6 +2,6 @@
 
 Design and Verification of a Multi Cycle RISC Processor in Verilog
 
-# Team Members
+# Team Member
 
 **Taleed Hamadneh** [GitHub](https://github.com/taleed606)
